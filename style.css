@@ -1,1 +1,54 @@
-/*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+h1 {
+  text-align: center;
+}
+
+.startbild-startsida {
+  width: 393px;
+  height: 228px;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gotland-startsida {
+  width: 95px;
+  height: 71px;
+  margin: 2px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.göteborg-startsida {
+  width: 95px;
+  height: 71px;
+  margin: 2px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.kiruna-startsida {
+  width: 95px;
+  height: 71px;
+  margin: 2px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.stockholm-startsida {
+  width: 95px;
+  height: 71px;
+  margin: 2px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.norrsken-startsida {
+  width: 396px;
+  height: 133px;
+  margin: 2px;
+}/*# sourceMappingURL=style.css.map */

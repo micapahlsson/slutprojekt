@@ -55,103 +55,52 @@ header
                     font-weight: bold;
                     color: darken($svart, 20%);
                     border-bottom: 2px solid $svart;
-}
-    } 
-    }
-}
-   
-
-
-    h3 {
-  text-align: center;      // centrerar horisontellt
-  color: $svart;            // valfri färg
-  font-family: 'cormorant', cursive;
-  margin-top: 1rem;        // avstånd från header
-  font-size: 1.5rem;
-       }
-
-    
-   .packages {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  padding: 2rem 4rem;
-
-  h1 {
+h1{
     text-align: center;
-  }
-
-  .package {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-
-    img {
-      width: 50%;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    }
-
-
-
-    .text {
-      width: 50%;
-      font-family: 'cormorant';
-      color: #000;
-      
-      h2 {
-        color: $svart;
-        margin-bottom: 1rem;
-      }
-      p {
-        font-size: 1rem;
-        line-height: 1.6;
-      }
-    }
-
-    &.reverse {
-      flex-direction: row;
-    }
-  }
+}
+.startbild-startsida{
+    width: 393px;
+    height: 228px;
+    margin: 2px;
+    display:flex;
+    flex-direction: column;
+}
+.gotland-startsida{
+    width: 95px;
+    height: 71px;
+    margin: 2px;
+    border: 2px solid black;
+    display:flex;
+    flex-direction: column;
+}
+.göteborg-startsida{
+    width: 95px;
+    height: 71px;
+    margin: 2px;
+    border: 2px solid black;
+    display:flex;
+    flex-direction: column;
+}
+.kiruna-startsida{
+    width: 95px;
+    height: 71px;
+    margin: 2px;
+    border: 2px solid black;
+    display:flex;
+    flex-direction: column;
+}
+.stockholm-startsida{
+    width: 95px;
+    height: 71px;
+    margin: 2px;
+    border: 2px solid black;
+    display:flex;
+    flex-direction: column;
+}
+.norrsken-startsida{
+    width: 396px;
+    height: 133px;
+    margin: 2px;    
 }
 
 
-    button {
-      background: $rosa;
-      border: none;
-      color: $svart;
-      font-family: 'cormorant';
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-      margin-top: 0.5rem;
-      cursor: pointer;
-
-      &:hover {
-        background: darken($rosa, 10%);
-      }
-    }
-  
-
-
-
-footer{
-
-  background-color: $rosa;
-  color: $svart;
-  text-align: start;
-  padding: 1rem;
-  justify-content: end;
-
-
-h1 
-  {
-  font-family: 'Moirai One', cursive;
-  font-size: 2.5rem;
-  background: linear-gradient(45deg, #0f0f0f, #010101);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-   }
-
-
-}

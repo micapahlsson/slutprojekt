@@ -28,7 +28,7 @@ header
      nav 
    {
 
-    margin-top: 1rem;
+            margin-top: 1rem;
 
     ul {
       list-style: none;
@@ -52,9 +52,9 @@ header
     }
 
         li a.active {
-  font-weight: bold;
-  color: darken($svart, 20%);
-  border-bottom: 2px solid $svart;
+                    font-weight: bold;
+                    color: darken($svart, 20%);
+                    border-bottom: 2px solid $svart;
 }
     } 
     }

@@ -3,3 +3,10 @@
   height: 64px;
   border: solid black 2px;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}

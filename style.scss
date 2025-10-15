@@ -1,3 +1,60 @@
+
+$rosa: #CB64BF; // färgvariabel 
+$vit: #FFFFFF;
+$svart: #000000;
+
+
+// 🔸 Header-stil
+header 
+{
+  background-color: $rosa;
+  color: $svart;
+  text-align: center;
+  padding: 1rem;
+
+  
+  h1 
+  {
+  font-family: 'Moirai One', cursive;
+  font-size: 2.5rem;
+  background: linear-gradient(45deg, #0f0f0f, #010101);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   }
+
+   
+    
+     nav 
+   {
+
+            margin-top: 1rem;
+
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0;
+      margin: 0;
+
+      li a {
+        text-decoration: none;
+        color: $svart;
+        font-family: 'cormorant';
+        font-size: 1.2rem;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: #ffe6f0;
+        }
+
+    }
+
+        li a.active {
+                    font-weight: bold;
+                    color: darken($svart, 20%);
+                    border-bottom: 2px solid $svart;
 h1{
     text-align: center;
 }

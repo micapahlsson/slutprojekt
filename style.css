@@ -1,4 +1,43 @@
-<<<<<<< HEAD
+header {
+  background-color: #CB64BF;
+  color: #000000;
+  text-align: center;
+  padding: 1rem;
+}
+header h1 {
+  font-family: "Moirai One", cursive;
+  font-size: 2.5rem;
+  background: linear-gradient(45deg, #0f0f0f, #010101);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header nav {
+  margin-top: 1rem;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "cormorant";
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+header nav ul li a:hover {
+  color: #ffe6f0;
+}
+header nav ul li a.active {
+  font-weight: bold;
+  color: black;
+  border-bottom: 2px solid #000000;
+}
 
 =======
 @charset "UTF-8";
@@ -49,7 +88,7 @@ h1 {
   display: flex;
   flex-direction: column;
 }
->>>>>>> 18576b66ede366f53ebddd1a34002935e126e826
+
 
 .norrsken-startsida {
   width: 396px;

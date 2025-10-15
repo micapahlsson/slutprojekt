@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Desktop/Triply"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "slutprojekt"
+	}
+}

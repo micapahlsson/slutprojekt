@@ -39,59 +39,76 @@ header nav ul li a.active {
   border-bottom: 2px solid #000000;
 }
 
-=======
-@charset "UTF-8";
-h1 {
+h3 {
+  text-align: center;
+  color: #000000;
+  font-family: "cormorant", cursive;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.packages {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem 4rem;
+}
+.packages h1 {
   text-align: center;
 }
-
-.startbild-startsida {
-  width: 393px;
-  height: 228px;
-  margin: 2px;
+.packages .package {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.packages .package img {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.packages .package .text {
+  width: 50%;
+  font-family: "cormorant";
+  color: #000;
+}
+.packages .package .text h2 {
+  color: #000000;
+  margin-bottom: 1rem;
+}
+.packages .package .text p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.packages .package.reverse {
+  flex-direction: row;
 }
 
-.gotland-startsida {
-  width: 95px;
-  height: 71px;
-  margin: 2px;
-  border: 2px solid black;
-  display: flex;
-  flex-direction: column;
+button {
+  background: #CB64BF;
+  border: none;
+  color: #000000;
+  font-family: "cormorant";
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+button:hover {
+  background: rgb(188.6956521739, 63.3043478261, 174.0869565217);
 }
 
-.göteborg-startsida {
-  width: 95px;
-  height: 71px;
-  margin: 2px;
-  border: 2px solid black;
-  display: flex;
-  flex-direction: column;
+footer {
+  background-color: #CB64BF;
+  color: #000000;
+  text-align: start;
+  padding: 1rem;
+  justify-content: end;
 }
-
-.kiruna-startsida {
-  width: 95px;
-  height: 71px;
-  margin: 2px;
-  border: 2px solid black;
-  display: flex;
-  flex-direction: column;
-}
-
-.stockholm-startsida {
-  width: 95px;
-  height: 71px;
-  margin: 2px;
-  border: 2px solid black;
-  display: flex;
-  flex-direction: column;
-}
-
-
-.norrsken-startsida {
-  width: 396px;
-  height: 133px;
-  margin: 2px;
+footer h1 {
+  font-family: "Moirai One", cursive;
+  font-size: 2.5rem;
+  background: linear-gradient(45deg, #0f0f0f, #010101);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }/*# sourceMappingURL=style.css.map */
